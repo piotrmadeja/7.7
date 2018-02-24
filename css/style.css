@@ -299,4 +299,75 @@ body {
   color: #fed136;
   font-size: 35px;
 }
+
+.portfolio {
+  height: 1219px;
+  max-width: 1400px;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+}
+
+.portfolio .portfolio-header {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.portfolio .portfolio-text {
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-style: italic;
+}
+
+.photo-header {
+  background-color: #ffffff;
+}
+
+.photo-header h1 {
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+  text-align: center;
+}
+
+.photo-text {
+  background-color: #ffffff;
+}
+
+.photo-text p {
+  color: #737373;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1px;
+  text-align: center;
+}
+
+.image-title {
+  max-width: 291px;
+  height: 93px;
+  text-align: center;
+}
+
+.wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.portfolio img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 /*# sourceMappingURL=style.css.map */

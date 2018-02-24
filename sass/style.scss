@@ -492,4 +492,34 @@ input[type=submit] {
   text-align: center;
 }
 
-
+.copyrights {
+  max-width: 1400px;
+  margin: 0 auto;
+  .footer {
+    p {
+      display: flex;
+      justify-content: flex-end;
+      margin: 3px 0;
+    }
+    .social {
+      display: flex;
+      justify-content: flex-start;
+      button {
+        width: 41px;
+        height: 42px;
+        background-color: #222222;
+        border: 2px solid #222222;  
+        border-radius: 50%;   
+        color: $White; 
+        font-size: 20px;
+        margin: 0 5px;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          background-color: $White;
+          color: #222222;
+        }
+      }
+    }
+  }
+}

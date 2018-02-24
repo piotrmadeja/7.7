@@ -597,4 +597,42 @@ input[type=submit] {
 .submit-button {
   text-align: center;
 }
+
+.copyrights {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.copyrights .footer p {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin: 3px 0;
+}
+
+.copyrights .footer .social {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+
+.copyrights .footer .social button {
+  width: 41px;
+  height: 42px;
+  background-color: #222222;
+  border: 2px solid #222222;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.copyrights .footer .social button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #ffffff;
+  color: #222222;
+}
 /*# sourceMappingURL=style.css.map */

@@ -172,12 +172,12 @@
       text-transform: uppercase;
       letter-spacing: -1px;
       margin: 0;
-      padding-top: 30px;
+      padding-top: 55px;
     }
     p {
       color: $gray;
       font-family: "Droid Serif";
-      font-size: 16px;
+      font-size: 18px;
       font-style: italic;
       margin: 0;
     }
@@ -202,6 +202,7 @@
     }
     button {
       margin-top: 80px;
+      margin-bottom: -20px;
       width: 68px;
       height: 67px;
       border: 3px solid $Yellow;
@@ -220,7 +221,7 @@
   }
 
 .portfolio {
-  height: 1219px;
+  height: 1130px;
   max-width: 1400px;
   background-color: #f7f7f7;
   margin: 0 auto;
@@ -229,9 +230,10 @@
     font-family: $Montserrat;
     font-size: 40px;
     font-weight: bold;
-    line-height: 75px;
+    line-height: 1px;
     text-transform: uppercase;
     letter-spacing: -1px;
+    padding-top: 55px;
   }
   .portfolio-text {
     color: $gray;
@@ -283,4 +285,98 @@
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.5s;
+}
+
+
+
+.About-us {
+  text-align: center;
+  height: 1350px;
+  max-width: 1400px;
+  margin: 0 auto;
+  h1 {
+    color: $black;
+    font-family: $Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 55px;
+  }
+  p {
+    color: $gray;
+    font-family: $Roboto;
+    font-size: 16px;
+    font-style: italic;
+  }
+}
+
+.text1 {
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  h2 {
+    color: $black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.45px;
+  }
+  p {
+    color: $gray;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    padding-bottom: 230px; 
+  }
+}
+
+.text2 {
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  h2 {
+    color: $black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.45px;
+    padding-top: 230px;
+  }
+  p {
+    color: $gray;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    max-width: 280px;
+  }
+}
+
+.photos1 {
+  position: relative;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
+}
+
+
+.line {
+  height: 60px;
+  width: 1px;
+  border: solid 1px #f1f1f1;
 }

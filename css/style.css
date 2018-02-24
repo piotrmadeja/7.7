@@ -450,7 +450,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.35px;
-  max-width: 280px;
 }
 
 .photos1 {
@@ -464,6 +463,12 @@ body {
       align-items: center;
 }
 
+.photos1 img {
+  width: 169px;
+  height: 169px;
+  border-radius: 50%;
+}
+
 .photos1 img:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -474,5 +479,63 @@ body {
   height: 60px;
   width: 1px;
   border: solid 1px #f1f1f1;
+}
+
+.staff {
+  text-align: center;
+  height: 669px;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.staff .section-title h1 {
+  font-size: 40px;
+}
+
+.staff h1 {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.staff p {
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-style: italic;
+}
+
+.staff button {
+  width: 41px;
+  height: 41px;
+  border: 3px solid #222222;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.staff button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.staff img {
+  width: 223px;
+  height: 223px;
+  border-radius: 50%;
+}
+
+.staff-photo {
+  margin: 0;
+}
+
+.staff-text {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

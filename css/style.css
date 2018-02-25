@@ -136,8 +136,9 @@ body {
   margin: 0 auto;
 }
 
-.navbar-brand a {
-  color: #fed136;
+.navbar-fixed-top {
+  max-width: 1400px;
+  text-align: center;
 }
 
 .slogan {

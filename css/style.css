@@ -136,51 +136,8 @@ body {
   margin: 0 auto;
 }
 
-.hero ul li {
-  list-style-type: none;
-  display: inline-block;
-}
-
-.hero ul li a {
-  text-decoration: none;
-  width: 45px;
-  height: 10px;
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 41px;
-  padding-left: 25px;
-}
-
-.navigation {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
-
-.logo {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  height: 67px;
-}
-
-.logo a {
-  text-decoration: none;
+.navbar-brand a {
   color: #fed136;
-  font-family: Pacifico;
-  font-size: 26px;
-  line-height: 41px;
-  letter-spacing: 1.3px;
-  width: 79px;
-  height: 28px;
 }
 
 .slogan {
@@ -209,6 +166,10 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -1.88px;
+}
+
+.slogan button {
+  margin-top: 100px;
 }
 
 .tell-more {
@@ -291,7 +252,7 @@ body {
 }
 
 .e-commerce button:hover, .responsive-web button:hover, .web-security button:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.5s;
   cursor: pointer;
 }
@@ -313,7 +274,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: bold;
-  line-height: 1px;
+  line-height: 25px;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 55px;
@@ -385,7 +346,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 1px;
+  line-height: 25px;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 55px;
@@ -498,7 +459,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1px;
+  line-height: 25px;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
@@ -634,5 +595,112 @@ input[type=submit] {
   transform: scale(1.1);
   background-color: #ffffff;
   color: #222222;
+}
+
+@media (max-width: 768px) {
+  .nav, .navbar, .navbar-form {
+    background-color: #F8F8F8;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .navbar-header {
+    height: 50px;
+  }
+  .slogan {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 33px;
+  }
+  .slogan h1 {
+    font-size: 30px;
+  }
+  .slogan h2 {
+    font-size: 30px;
+  }
+  .welcome h1 {
+    margin-top: 55px;
+  }
+  .services {
+    height: 1300px;
+    margin-top: 0;
+  }
+  .services h1 {
+    font-size: 35px;
+    padding-top: 10px;
+  }
+  .e-commerce, .responsive-web, .web-security {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .e-commerce button, .responsive-web button, .web-security button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .e-commerce button .fa, .responsive-web button .fa, .web-security button .fa {
+    font-size: 50px;
+  }
+  .portfolio {
+    margin: 0 auto;
+    height: 2650px;
+  }
+  .portfolio .wrap {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .portfolio .portfolio-header {
+    font-size: 30px;
+  }
+  .portfolio .photo-header, .portfolio .photo-text {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .About-us {
+    height: 1300px;
+  }
+  .About-us h1 {
+    font-size: 35px;
+  }
+  .About-us p {
+    font-size: 15px;
+  }
+  .photos1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .staff {
+    height: 1450px;
+  }
+  .staff .section-title {
+    width: 100%;
+  }
+  .staff .section-title h1 {
+    font-size: 25px;
+  }
+  .staff-photo {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .text1, .text2 {
+    display: none;
+  }
+  .footer100 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

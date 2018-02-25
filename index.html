@@ -2,28 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7.7</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
   <body>
     <section class="hero">
       <div class="container">
-        <div class="col-3 logo">
-          <a href="#">Golden</a>
-        </div>
-        <div class="col-9 navigation">
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </div>
-      </div>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-height">
+          <div class="container-fluid nawig">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="#">Golden</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#carousel">Services</a></li>
+              <li><a href="#tabs">Portfolio</a></li>
+              <li><a href="#3">About Us</a></li>
+              <li><a href="#3">Staff</a></li>
+              <li><a href="#3">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
       <div class="col-12 slogan">
-          <div class="col-12 center">
+          <div class="col-12 center welcome">
             <h2>Welcome To Our Studio</h2>
             <h1>It's nice to meet you</h1>
             <button class="tell-more">TELL ME MORE</button>
@@ -46,7 +59,7 @@
             digni ssim. Donec porttitora entum suscipit 
             aenean rhoncus posuere odio in tincidunt.</p>
         </div>
-        <div class="col-4 responsive-web">
+        <div class="col-4 responsive-web ">
           <button class="button">
             <i class="fa fa-laptop"></i>
           </button>
@@ -71,23 +84,23 @@
         <h1 class="portfolio-header">Our Portfolio</h1>
         <p class="portfolio-text">Proin iaculis purus consequat sem cure.</p>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="col-4 wrap">
+      <div class="row ">
+        <div class="col-12 ">
+          <div class="col-4 wrap ">
             <img src="./images/image1.jpg" alt="Ebony ^ Ivory">
             <div class="col-12 image-title photo-header photo-text">
               <h1>Ebony & Ivory</h1>
               <p>Branding</p>
             </div>
           </div>
-          <div class="col-4 wrap">
+          <div class="col-4 wrap ">
             <img src="./images/image.jpg" alt="Smart Stationary">
             <div class="col-12 image-title photo-header photo-text">
               <h1>Smart Stationary</h1>
               <p>Print Design</p>
             </div>
           </div>
-          <div class="col-4 wrap">
+          <div class="col-4 wrap ">
             <img src="./images/image3.jpg" alt="Clever Poster">
             <div class="col-12 image-title  photo-header photo-text">
               <h1>Clever Poster</h1>
@@ -191,7 +204,7 @@
               <i class="fa fa-pinterest"></i>
             </button>
           </div>
-          <div class="col-4">
+          <div class="col-4 staff-photo">
               <img src="./images/staff1.jpg">
             <h1>Rico Massiomo</h1>
             <p>Coder</p>
@@ -205,7 +218,7 @@
               <i class="fa fa-google-plus"></i>
             </button>
           </div>
-          <div class="col-4">
+          <div class="col-4 staff-photo">
               <img src="./images/staff1.jpg">
             <h1>Uku Mason</h1>
             <p>Graphic Designer</p>
@@ -254,11 +267,11 @@
     </section>  
     <section class="copyrights">
       <div class="container footer">
-        <div class="row col-12">
-          <div class="col-6">
+        <div class="row col-12 footer100">
+          <div class="col-6 footer100">
             <p>© Copyright 2014 FreebiesXpress.com</p>
           </div>
-          <div class="col-6 social">
+          <div class="col-6 footer100 social">
             <button class="button">
               <i class="fa fa-twitter"></i>
             </button>

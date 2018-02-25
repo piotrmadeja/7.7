@@ -107,6 +107,10 @@
   box-sizing: border-box;
 }
 
+.row {
+  margin: 0;
+}
+
 .row:before,
 .row:after {
   content: " ";
@@ -119,11 +123,11 @@
 
 body {
   margin: 0 auto;
+  padding: 0;
 }
 
 .container {
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -132,12 +136,10 @@ body {
   background-size: cover;
   height: 701px;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
 .navbar-fixed-top {
-  max-width: 1400px;
   text-align: center;
   margin: 0 auto;
 }
@@ -198,7 +200,6 @@ body {
 
 .services {
   height: 568px;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -246,27 +247,28 @@ body {
 .e-commerce button, .responsive-web button, .web-security button {
   margin-top: 80px;
   margin-bottom: -20px;
-  width: 68px;
-  height: 67px;
+  width: 120px;
+  height: 120px;
   border: 3px solid #fed136;
   background-color: #ffffff;
   border-radius: 50%;
+  color: #fed136;
 }
 
 .e-commerce button:hover, .responsive-web button:hover, .web-security button:hover {
   transform: scale(1.1);
   transition: 0.5s;
   cursor: pointer;
+  color: #ffffff;
+  background-color: #fed136;
 }
 
 .e-commerce button .fa, .responsive-web button .fa, .web-security button .fa {
-  color: #fed136;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .portfolio {
   height: 1130px;
-  max-width: 1400px;
   background-color: #f7f7f7;
   margin: 0 auto;
 }
@@ -339,7 +341,6 @@ body {
 .About-us {
   text-align: center;
   height: 1350px;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -447,7 +448,6 @@ body {
 .staff {
   text-align: center;
   height: 669px;
-  max-width: 1400px;
   margin: 0 auto;
   background-color: #f9f9f9;
 }
@@ -508,7 +508,6 @@ body {
   background-image: url("../images/123.jpg");
   background-repeat: no-repeat;
   height: 679px;
-  max-width: 1400px;
   width: 100%;
   background-size: 60% 70%;
   background-position: bottom right;
@@ -562,7 +561,6 @@ input[type=submit] {
 }
 
 .copyrights {
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -648,7 +646,7 @@ input[type=submit] {
   }
   .portfolio {
     margin: 0 auto;
-    height: 2650px;
+    height: 2200px;
   }
   .portfolio .wrap {
     float: none;
@@ -664,6 +662,10 @@ input[type=submit] {
     float: none;
     display: block;
     margin: 0 auto;
+  }
+  .portfolio img {
+    width: 200px;
+    height: 200px;
   }
   .About-us {
     height: 1300px;

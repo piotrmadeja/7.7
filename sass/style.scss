@@ -240,7 +240,7 @@
 }
 
 .image-title {
-  max-width: 291px;
+  max-width: 330px;
   height: 93px;
   text-align: center;
 }
@@ -249,6 +249,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.photo-resize img{
+  height: 330px;
+  width: 330px;
 }
 
 
